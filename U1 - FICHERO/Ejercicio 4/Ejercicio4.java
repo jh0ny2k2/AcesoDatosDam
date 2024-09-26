@@ -3,11 +3,11 @@ import java.io.FileReader;
 import java.io.BufferedReader;
 import java.io.IOException;
 
-public class Ejercicio3 {
+public class Ejercicio4 {
 
     public static void main(String[] args) {
         // Definimos la ruta de los archivos
-        String ruta = "C:/Users/Jh0ny2k2/Desktop/DAM/ACESO A DATOS/tema1/Ejercicio 3/prueba/1";
+        String ruta = "C:/Users/Jh0ny2k2/Desktop/DAM/ACESO A DATOS/tema1/Ejercicio 4/prueba/1";
         String textoBuscado = "ejemplo"; // Texto que queremos buscar
 
         // Si se proporciona un argumento, lo usamos como ruta
