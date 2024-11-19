@@ -14,10 +14,13 @@ public class ejercicio {
 
         while (true ) {
             System.out.println("MENÚ");
+            System.out.println("-------------------------------------------");
             System.out.println("1. Crear un archivo");
             System.out.println("2. Añadir texto al final del archivo");
             System.out.println("3. Añadir texto al principio del archivo");
             System.out.println("4. salir");
+            System.out.println("-------------------------------------------");
+            System.out.println("Dime una de las opciones anteriores:");
 
             int opcion = sc.nextInt();
             sc.nextLine();
