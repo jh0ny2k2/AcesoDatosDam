@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Lista de Productos</h1>
+
+
+    <ul>
+        <!-- Recorrer la lista de productos -->
+        <li th:each="producto : ${productos}">
+            <span th:text="${producto.numero}"></span> -
+            <span th:text="${producto.concepto}"></span> -
+            <span th:text="${producto.importe}"></span>
+        </li>
+    </ul>
+</body>
+</html>
